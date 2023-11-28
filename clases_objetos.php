@@ -81,25 +81,25 @@ $alumno2=new Alumno("ramon",64300800,1001);
 $alumno2->add_materia("c");
 $alumno2->add_materia("html");
 
-echo $alumno1->toString();
+echo $alumno2->toString();
 
 
-$alumno1=new Alumno("marta",60300802,1002);
-$alumno1->add_materia("git");
-$alumno1->add_materia("sql");
+$alumno3=new Alumno("marta",60300802,1002);
+$alumno3->add_materia("git");
+$alumno3->add_materia("sql");
 
-echo $alumno1->toString();
+echo $alumno3->toString();
 
 
-$alumno2=new Alumno("andres",64300803,1003);
-$alumno2->add_materia("css");
-$alumno2->add_materia("c#");
+$alumno4=new Alumno("andres",64300803,1003);
+$alumno4->add_materia("css");
+$alumno4->add_materia("c#");
 
-echo $alumno1->toString();
+echo $alumno4->toString();
 
-$alumno2=new Alumno("Pascal",64305803,1004);
-$alumno2->add_materia("bash");
-$alumno2->add_materia("ts");
+$alumno5=new Alumno("Pascal",64305803,1004);
+$alumno5->add_materia("bash");
+$alumno5->add_materia("ts");
 
-echo $alumno1->toString();
+echo $alumno5->toString();
 ?>
